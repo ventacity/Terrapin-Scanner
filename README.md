@@ -9,7 +9,7 @@ For convenience, we are providing pre-compiled binaries for all major desktop pl
 However, we understand that you might prefer building tools, that connect to your SSH server, yourself. To do this, ensure that you have at least Go v1.18 installed. To compile and install the Terrapin Vulnerability Scanner Go package, run the command below.
 
 ```
-go install github.com/RUB-NDS/Terrapin-Scanner@latest
+go install github.com/Ventacity/Terrapin-Scanner@latest
 ```
 
 This will download, compile, and install the Go package for your local system. The compiled binary will become available at `$GOBIN/Terrapin-Scanner`. If the `GOBIN` environment variable is not set, Go will default to using `$GOPATH/bin` or `$HOME/go/bin`, depending on whether the `$GOPATH` environment variable is set.
